@@ -1,0 +1,66 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(back.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: flex;
+}
+.nav{
+    text-align: center;
+    margin-top: 40px;
+}
+
+li{
+    display: inline-block;
+    list-style: none;    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding: 16px 20px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+h2{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.tagline{
+    position: absolute;
+    top: 52%;
+    left: 40%;
+}
+h3{
+    font-family: 'Segoe UI';
+    letter-spacing: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+button{
+    padding: 10px 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid rgb(223, 154, 4);
+}
